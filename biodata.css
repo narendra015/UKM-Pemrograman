@@ -35,7 +35,7 @@ body {
     margin-left: 30%;
     margin-right: 30%;
     padding: 20px 20px 5px 50px;
-    width: 40%;
+    width: 400px;
     position: relative;
     background-color: rgba(255, 255, 255, 0.801);
     border-radius: 10px;
@@ -52,6 +52,12 @@ body {
     margin-left: 41%;
     margin-right: auto;
     border-radius: 10px;
+}
+
+.submit a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .submit:hover{
@@ -72,3 +78,4 @@ body {
     padding-left: 5px;
     padding-top: 5px;
 }
+
