@@ -1,41 +1,48 @@
-* {
-    margin: 0;
+*{
+    margin:0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: "poppins", sans-serif;
+    font-family: "poppins",sans-serif;
 }
 
-/* Element selector */
+/* Element Selector */
 
-h1 /*CSS Selector*/{ 
-    margin-top/*CSS Properties*/: 20px /*CSS Values*/;
+h1 /*CSS selector*/{
+    margin-top /*CSS Properties*/: 20px/*CSS Values*/;
     text-align: center;
-    color: white;
+    color :white;
     text-shadow: black 2px 2px;
 }
 
-body{
+body {
     background: url(https://wallpaperaccess.com/full/1552653.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* Class selector */
+
+/* Class Selector */
+
+#nama, #email, #alamat {
+  margin-left: 30px;
+}
 
 .container{
-    border: black solid 1px;
+    border: white solid 2px;
     margin: 20px 0px;
     margin-left: 30%;
     margin-right: 30%;
     padding: 20px 20px 5px 50px;
     width: 40%;
     position: relative;
-    background-color: rgba(255, 255, 255, 0.719);
+    background-color: rgba(255, 255, 255, 0.801);
     border-radius: 10px;
     box-shadow: black 4px 4px;
+    display:block;
 }
+
 .submit{
     width: 250px;
     height: 40px;
@@ -49,11 +56,11 @@ body{
 
 .submit:hover{
     color: white;
-    background-color: red;
+    background-color: yellow;
     box-shadow: black 4px 4px;
 }
 
-/* ID selector */
+/* ID Selector */
 
 #nama,#email,#prodi{
     height: 30px;
